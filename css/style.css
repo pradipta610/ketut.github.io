@@ -1,0 +1,97 @@
+@font-face {
+    src: url(../font/Poppins-Medium.ttf);
+    font-family: poppins-m;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: poopins-m;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #78bcc4;
+    position: fixed;
+}
+
+.bg-logo {
+    float: left;
+    margin: 15px 100px;
+}
+
+.bg-menu {
+    float: right;
+    margin: 0px 100px;
+}
+
+.bg-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.bg-menu ul li a {
+    text-decoration: none;
+    line-height: 90px;
+    color: rgb(5, 5, 5);
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.bg-banner {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100vh;
+    background: url(../img/bg-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-banner {
+    text-align: center;
+    color: rgb(78, 94, 128);
+    padding: 300px 0px;
+    width: 100%;
+    font-style: italic;
+}
+
+.btn-banner {
+    background: rgb(78, 94, 128);
+    width: 95px;
+    height: 35px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.btn-banner a {
+    text-decoration: none;
+    color: #78bcc4;
+    line-height: 35px;
+}
+
+.btn-banner:hover {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-banner:hover a {
+    color: #fff;
+}
